@@ -12,7 +12,7 @@ pipeline {
                     sh 'ls'
                 }
             }
-            stage ('verify git branch') {
+            stage ('verify git ') {
                 steps {
                     echo "the stage is complete"
                 }
